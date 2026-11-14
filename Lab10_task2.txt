@@ -1,0 +1,21 @@
+103 ?- login.
+Enter username (followed by a period): leena.
+Enter password (followed by a period): |: wwww.
+Login Unsuccessful
+Enter username (followed by a period): |: leema.
+Enter password (followed by a period): |: eeee.
+Login Unsuccessful
+Enter username (followed by a period): |: leena.
+Enter password (followed by a period): |: 2222.
+Login Unsuccessful
+Sorry, you exceeded the maximum number of attempts, try again later.
+true.
+
+103 ?- login.
+Enter username (followed by a period): lara.
+Enter password (followed by a period): |: wwww.
+Login Unsuccessful
+Enter username (followed by a period): |: lara.
+Enter password (followed by a period): |: 3333.
+Login Successful
+true.

@@ -1,0 +1,11 @@
+97 ?- square(5, Area, Perimeter).
+Area = 25,
+Perimeter = 20.
+
+98 ?- rectangle(4, 6, Area, Perimeter).
+Area = 24,
+Perimeter = 20.
+
+99 ?- triangle(6, 4, 5, 5, Area, Perimeter).
+Area = 12.0,
+Perimeter = 16.
